@@ -1,5 +1,17 @@
-[30960:23144:1005/145314.508:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[30960:22916:1005/145314.675:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[30960:23144:1005/145314.747:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[1516:10132:1005/145319.448:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-CC34CC0D2D050CC25B8E6E9E62BFC7B1 will be ignored
-[30960:23144:1005/153243.806:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[27844:10220:1027/172320.742:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[27844:10220:1027/172320.757:ERROR:os_crypt_win.cc(100)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[27844:12628:1027/172320.780:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[27844:10220:1027/172320.792:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[27844:30056:1027/172325.819:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[27844:30056:1027/172325.824:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[27844:30056:1027/172325.827:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[27844:30056:1027/172325.832:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[27844:24024:1027/172326.299:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[27844:24024:1027/172326.322:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[20104:29440:1027/172328.226:WARNING:backend_impl.cc(1764)] Destroying invalid entry.
+[20104:29440:1027/172328.226:ERROR:backend_impl.cc(989)] Critical error found -8
+[20104:29440:1027/172328.362:WARNING:storage_block-inl.h(138)] Failed data load.
+[20104:29440:1027/172328.362:WARNING:storage_block-inl.h(138)] Failed data load.
+[20104:29440:1027/172328.363:ERROR:entry_impl.cc(955)] Failed to save user data
+[36452:33216:1027/172328.846:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-253CD144580A97CD8C1EC8685BA0577B will be ignored
+[27844:10220:1027/173225.681:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
