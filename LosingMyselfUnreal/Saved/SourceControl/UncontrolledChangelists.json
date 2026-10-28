@@ -5,14 +5,19 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/Ayden/OneDrive/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Levels/Jackson/LectureHall.umap",
-				"C:/Users/Ayden/OneDrive/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/CR_Mannequin_Body_Take1.uasset",
 				"C:/Users/Jackson/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Levels/Jackson/LectureHall.umap",
 				"C:/Users/Jackson/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Levels/Jackson/_GENERATED/Jackson/Box_306ADAD8.uasset",
 				"C:/Users/Jackson/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Levels/Jackson/_GENERATED/Jackson/CubeGridToolOutput_9893A28F.uasset",
 				"C:/Users/Jackson/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Levels/Jackson/_GENERATED/Jackson/CubeGridToolOutput_F3BAB82D.uasset",
 				"C:/Users/Jackson/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Levels/Jackson/_GENERATED/Jackson/Stairs_125DC53D.uasset",
 				"C:/Users/Jackson/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Levels/Jackson/_GENERATED/Jackson/Stairs_DED9AC0E.uasset",
+				"C:/Users/Jackson/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Models/Jackson/chairs.uasset",
+				"C:/Users/Jackson/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Models/Jackson/lambert2.uasset",
+				"C:/Users/Jackson/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Models/Jackson/lambert3.uasset",
+				"C:/Users/Jackson/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Models/Jackson/openPBR_shader1.uasset",
+				"C:/Users/Jackson/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Models/Jackson/whiteboard.uasset",
+				"C:/Users/Ayden/OneDrive/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/Levels/Jackson/LectureHall.umap",
+				"C:/Users/Ayden/OneDrive/Documents/GitHub/LosingYourself/LosingMyselfUnreal/Content/CR_Mannequin_Body_Take1.uasset",
 				"C:/Users/Jackson/Documents/GitHub/LosingYourself/Project/LosingMyselfUnreal/Content/Levels/Jackson/LectureHall.umap"
 			]
 		}
