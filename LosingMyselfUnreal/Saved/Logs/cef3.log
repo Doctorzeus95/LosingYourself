@@ -1,16 +1,11 @@
-[21540:6852:1028/145611.509:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[21540:6852:1028/145611.553:ERROR:os_crypt_win.cc(100)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
-[21540:10480:1028/145611.575:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[21540:6852:1028/145611.631:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[21540:24124:1028/145614.628:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[21540:24124:1028/145614.632:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[21540:24124:1028/145614.635:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[21540:24124:1028/145614.639:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Ayden\OneDrive\Documents\GitHub\LosingYourself\LosingMyselfUnreal\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[21540:2828:1028/145615.255:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[21540:2828:1028/145615.272:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[25764:7212:1028/145615.835:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-FD1CFFF8916E204C5356BE6D17EF0DA3 will be ignored
-[21540:6852:1028/160516.421:ERROR:device_event_log_impl.cc(196)] [16:05:16.229] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[21540:6852:1028/173425.124:ERROR:device_event_log_impl.cc(196)] [17:34:25.122] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[21540:6852:1028/182407.263:ERROR:device_event_log_impl.cc(196)] [18:24:07.205] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[21540:6852:1029/004536.300:ERROR:device_event_log_impl.cc(196)] [00:45:36.268] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[21540:6852:1029/023631.074:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[32920:14964:1031/101740.541:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[32920:14964:1031/101740.639:ERROR:os_crypt_win.cc(100)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[32920:20756:1031/101740.709:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[32920:14964:1031/101740.773:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[31520:35940:1031/101743.859:WARNING:backend_impl.cc(1764)] Destroying invalid entry.
+[31520:35940:1031/101743.859:ERROR:backend_impl.cc(989)] Critical error found -8
+[31520:35940:1031/101743.948:WARNING:storage_block-inl.h(138)] Failed data load.
+[31520:35940:1031/101743.948:WARNING:storage_block-inl.h(138)] Failed data load.
+[31520:35940:1031/101743.949:ERROR:entry_impl.cc(955)] Failed to save user data
+[37764:21836:1031/101745.842:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-F7632C929B900822D48A4FC7AF6FDF7F will be ignored
+[32920:14964:1031/110704.116:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
