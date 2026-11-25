@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Shot1.ma
-//Last modified: Tue, Nov 24, 2026 09:20:15 PM
+//Last modified: Tue, Nov 24, 2026 09:47:06 PM
 //Codeset: 1252
 file -rdi 1 -ns "RestaurantMap" -rfn "RestaurantMapRN" -op "v=0;" -typ "mayaAscii"
 		 "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Losing Yourself//assets/Maps/Restaurant/RestaurantMap.ma";
@@ -20,6 +20,7 @@ file -r -ns "Emily" -dr 1 -rfn "EmilyRN" -op "v=0;" -typ "mayaAscii" "D:/Schoolw
 file -r -ns "Jake" -dr 1 -rfn "JakeRN" -op "v=0;" -typ "mayaAscii" "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Losing Yourself//assets/Models/Characters/Jake/Jake.ma";
 requires maya "2026";
 requires "stereoCamera" "10.0";
+requires -nodeType "gameFbxExporter" "gameFbxExporter" "1.0";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
 		 "mtoa" "5.5.4.2";
 currentUnit -l centimeter -a degree -t film;
@@ -28,7 +29,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26200)";
-fileInfo "UUID" "5D7423F5-4833-A0E8-A13D-DE838B4BAB3A";
+fileInfo "UUID" "FA11A1B4-4C4F-1FE0-E305-BEB6C48B1065";
 createNode transform -s -n "persp";
 	rename -uid "FEA0BBDE-4B4A-37E4-465B-2EB92DEFB844";
 	setAttr ".t" -type "double3" 507.07622388322432 148.89248559021758 181.84349317331836 ;
@@ -113,7 +114,7 @@ createNode camera -n "Shot1Shape" -p "Shot1";
 	setAttr ".dr" yes;
 	setAttr ".dgc" -type "float3" 0 0 0 ;
 createNode fosterParent -n "JakeRNfosterParent1";
-	rename -uid "D376F13B-45CB-51B4-4EFB-AB8D9C41D199";
+	rename -uid "A4B8899C-40BD-9BF2-DBFA-85B0ED75AF5A";
 createNode transform -n "Core" -p "JakeRNfosterParent1";
 	rename -uid "0AD19601-4D69-3513-A692-FCBD3CF99853";
 	setAttr ".t" -type "double3" -5.6843418860808015e-14 -14.718057829417411 -31.435942788315302 ;
@@ -11494,9 +11495,39 @@ createNode animCurveTU -n "effector2_blendIKWristJointL";
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  44 0;
 	setAttr ".kot[0]"  5;
+createNode gameFbxExporter -n "gameExporterPreset1";
+	rename -uid "7EC3F67C-4C5B-C84E-D058-97846EEC0B82";
+	setAttr ".pn" -type "string" "Model Default";
+	setAttr ".ils" yes;
+	setAttr ".ebm" yes;
+	setAttr ".ich" yes;
+	setAttr ".inc" yes;
+	setAttr ".fv" -type "string" "FBX201800";
+createNode gameFbxExporter -n "gameExporterPreset2";
+	rename -uid "172772DC-40F0-FCE5-4F76-63B25E9E06FA";
+	setAttr ".pn" -type "string" "Anim Default";
+	setAttr ".ils" yes;
+	setAttr ".ilu" yes;
+	setAttr ".eti" 2;
+	setAttr ".esi" 2;
+	setAttr ".ac[0].acn" -type "string" "jk";
+	setAttr ".ac[0].ace" 109;
+	setAttr ".spt" 2;
+	setAttr ".ic" no;
+	setAttr ".ebm" yes;
+	setAttr ".fv" -type "string" "FBX201800";
+	setAttr ".exp" -type "string" "D:/Schoolwork/GAMES3660/LosingYourself/LosingMyselfUnreal/file_imports/scene1/shot1";
+	setAttr ".exf" -type "string" "s1s1";
+createNode gameFbxExporter -n "gameExporterPreset3";
+	rename -uid "AABF4900-46FA-D08B-695B-FFB61416F797";
+	setAttr ".pn" -type "string" "TE Anim Default";
+	setAttr ".ils" yes;
+	setAttr ".eti" 3;
+	setAttr ".ebm" yes;
+	setAttr ".fv" -type "string" "FBX201800";
 select -ne :time1;
-	setAttr ".o" 95;
-	setAttr ".unw" 95;
+	setAttr ".o" 28;
+	setAttr ".unw" 28;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
