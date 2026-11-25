@@ -1,18 +1,18 @@
 //Maya ASCII 2026 scene
 //Name: Shot1.ma
-//Last modified: Thu, Nov 19, 2026 06:12:17 PM
+//Last modified: Tue, Nov 24, 2026 09:20:15 PM
 //Codeset: 1252
 file -rdi 1 -ns "RestaurantMap" -rfn "RestaurantMapRN" -op "v=0;" -typ "mayaAscii"
 		 "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Losing Yourself//assets/Maps/Restaurant/RestaurantMap.ma";
 file -rdi 1 -ns "Faceless" -rfn "FacelessRN" -op "v=0;" -typ "mayaAscii" "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Losing Yourself//assets/Models/Characters/Faceless/Faceless.ma";
 file -rdi 2 -ns "BaseChar2" -rfn "Faceless:BaseChar2RN" -op "v=0;" -typ "mayaAscii"
-		 "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Models/Characters/Base/BaseChar2.ma";
+		 "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Losing Yourself//assets/Models/Characters/Base/BaseChar2.ma";
 file -rdi 1 -ns "Emily" -rfn "EmilyRN" -op "v=0;" -typ "mayaAscii" "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Losing Yourself//assets/Models/Characters/Emily/Emily.ma";
 file -rdi 2 -ns "BaseChar2" -rfn "Emily:BaseChar2RN" -op "v=0;" -typ "mayaAscii"
-		 "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Models/Characters/Base/BaseChar2.ma";
+		 "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Losing Yourself//assets/Models/Characters/Base/BaseChar2.ma";
 file -rdi 1 -ns "Jake" -rfn "JakeRN" -op "v=0;" -typ "mayaAscii" "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Losing Yourself//assets/Models/Characters/Jake/Jake.ma";
 file -rdi 2 -ns "BaseChar2" -rfn "Jake:BaseChar2RN" -op "v=0;" -typ "mayaAscii"
-		 "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Models/Characters/Base/BaseChar2.ma";
+		 "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Losing Yourself//assets/Models/Characters/Base/BaseChar2.ma";
 file -r -ns "RestaurantMap" -dr 1 -rfn "RestaurantMapRN" -op "v=0;" -typ "mayaAscii"
 		 "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Losing Yourself//assets/Maps/Restaurant/RestaurantMap.ma";
 file -r -ns "Faceless" -dr 1 -rfn "FacelessRN" -op "v=0;" -typ "mayaAscii" "D:/Schoolwork/GAMES3660/LosingYourself/Maya/Losing Yourself//assets/Models/Characters/Faceless/Faceless.ma";
@@ -28,7 +28,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26200)";
-fileInfo "UUID" "1B3A858F-4562-4874-E20E-AD96E807DE15";
+fileInfo "UUID" "5D7423F5-4833-A0E8-A13D-DE838B4BAB3A";
 createNode transform -s -n "persp";
 	rename -uid "FEA0BBDE-4B4A-37E4-465B-2EB92DEFB844";
 	setAttr ".t" -type "double3" 507.07622388322432 148.89248559021758 181.84349317331836 ;
@@ -113,7 +113,7 @@ createNode camera -n "Shot1Shape" -p "Shot1";
 	setAttr ".dr" yes;
 	setAttr ".dgc" -type "float3" 0 0 0 ;
 createNode fosterParent -n "JakeRNfosterParent1";
-	rename -uid "F079DFE2-4E16-8EC7-D248-9BB4BDC4CAF4";
+	rename -uid "D376F13B-45CB-51B4-4EFB-AB8D9C41D199";
 createNode transform -n "Core" -p "JakeRNfosterParent1";
 	rename -uid "0AD19601-4D69-3513-A692-FCBD3CF99853";
 	setAttr ".t" -type "double3" -5.6843418860808015e-14 -14.718057829417411 -31.435942788315302 ;
@@ -1000,20 +1000,20 @@ createNode ikEffector -n "effector2" -p "IKElbowJoint_L";
 	setAttr ".t" -type "double3" -30.338399887085281 4.9311760028041517e-12 -2.630673051839949e-06 ;
 	setAttr ".hd" yes;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "3CE14C7F-4281-2658-75A9-A9957B5D3E0E";
+	rename -uid "02D089D0-4EBC-D207-621C-46825DD9398D";
 	setAttr -s 28 ".lnk";
 	setAttr -s 28 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "9BF4E4DE-4B21-8E03-89EF-8E9E86E8CA08";
+	rename -uid "14D9175E-47E4-A2E3-523F-53AEBCD542C5";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "E805F1D3-4C2A-4044-50E1-148B7ED3CD53";
+	rename -uid "A422E9AB-4161-351B-517B-68A13D2BDB9A";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "7049303F-4861-4380-70E1-7490B0AB2A7B";
+	rename -uid "7675EDF1-47D6-BBB1-C832-2CBB34BEA5C1";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "0347D686-4F46-F882-99A0-578008DFA0F4";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "526B355A-414F-98FC-0D40-2BBDDEAB61AE";
+	rename -uid "0AD3DF2E-4789-F4F8-2D8C-77B9461084D1";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "5B0FA69A-43C5-D2D1-5D73-F7BB22012EBB";
 	setAttr ".g" yes;
@@ -4617,8 +4617,8 @@ createNode reference -n "FacelessRN";
 	rename -uid "DA9A602C-408E-D200-482F-59AF9AE40801";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"FacelessRN"
-		"Faceless:BaseChar2RN" 0
 		"FacelessRN" 0
+		"Faceless:BaseChar2RN" 0
 		"Faceless:BaseChar2RN" 24
 		2 "|Faceless:Faceless|Faceless:BaseChar2:CharacterBase|Faceless:BaseChar2:Rig|Faceless:BaseChar2:Root" 
 		"translate" " -type \"double3\" 277.51891400383499331 0 117.55339678217751498"
@@ -5348,6 +5348,24 @@ createNode reference -n "EmilyRN";
 		"blendIKWristJointR" " -k 1"
 		2 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:IKArm_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKShoulderJoint_L|Emily:BaseChar2:IKElbowJoint_L|Emily:BaseChar2:effector2" 
 		"blendIKWristJointL" " -k 1"
+		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head|Emily:BaseChar2:Head_parentConstraint1.constraintTranslateX" 
+		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head.translateX" 
+		""
+		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head|Emily:BaseChar2:Head_parentConstraint1.constraintTranslateY" 
+		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head.translateY" 
+		""
+		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head|Emily:BaseChar2:Head_parentConstraint1.constraintTranslateZ" 
+		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head.translateZ" 
+		""
+		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:IKAnkleJoint_R.translateX" 
+		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:effector4.translateX" 
+		""
+		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:IKAnkleJoint_R.translateY" 
+		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:effector4.translateY" 
+		""
+		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:IKAnkleJoint_R.translateZ" 
+		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:effector4.translateZ" 
+		""
 		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:IKAnkleJoint_R|Emily:BaseChar2:IKAnkleJoint_R_orientConstraint1.constraintRotateX" 
 		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:IKAnkleJoint_R.rotateX" 
 		""
@@ -5366,15 +5384,6 @@ createNode reference -n "EmilyRN";
 		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:IKArm_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKShoulderJoint_L|Emily:BaseChar2:IKElbowJoint_L|Emily:BaseChar2:IKWristJoint_L.translateZ" 
 		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:IKArm_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKShoulderJoint_L|Emily:BaseChar2:IKElbowJoint_L|Emily:BaseChar2:effector2.translateZ" 
 		""
-		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L|Emily:BaseChar2:IKAnkleJoint_L_orientConstraint1.constraintRotateX" 
-		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L.rotateX" 
-		""
-		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L|Emily:BaseChar2:IKAnkleJoint_L_orientConstraint1.constraintRotateY" 
-		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L.rotateY" 
-		""
-		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L|Emily:BaseChar2:IKAnkleJoint_L_orientConstraint1.constraintRotateZ" 
-		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L.rotateZ" 
-		""
 		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L.translateX" 
 		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:effector3.translateX" 
 		""
@@ -5383,15 +5392,6 @@ createNode reference -n "EmilyRN";
 		""
 		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L.translateZ" 
 		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:effector3.translateZ" 
-		""
-		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head|Emily:BaseChar2:Head_parentConstraint1.constraintTranslateX" 
-		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head.translateX" 
-		""
-		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head|Emily:BaseChar2:Head_parentConstraint1.constraintTranslateY" 
-		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head.translateY" 
-		""
-		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head|Emily:BaseChar2:Head_parentConstraint1.constraintTranslateZ" 
-		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:Head.translateZ" 
 		""
 		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:IKArm_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKShoulderJoint_R|Emily:BaseChar2:IKElbowJoint_R|Emily:BaseChar2:IKWristJoint_R.translateX" 
 		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:IKArm_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKShoulderJoint_R|Emily:BaseChar2:IKElbowJoint_R|Emily:BaseChar2:effector1.translateX" 
@@ -5402,14 +5402,14 @@ createNode reference -n "EmilyRN";
 		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:IKArm_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKShoulderJoint_R|Emily:BaseChar2:IKElbowJoint_R|Emily:BaseChar2:IKWristJoint_R.translateZ" 
 		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Spine|Emily:BaseChar2:WaistUpper|Emily:BaseChar2:Spine1|Emily:BaseChar2:SpineShoulders|Emily:BaseChar2:IKArm_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKShoulderJoint_R|Emily:BaseChar2:IKElbowJoint_R|Emily:BaseChar2:effector1.translateZ" 
 		""
-		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:IKAnkleJoint_R.translateX" 
-		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:effector4.translateX" 
+		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L|Emily:BaseChar2:IKAnkleJoint_L_orientConstraint1.constraintRotateX" 
+		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L.rotateX" 
 		""
-		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:IKAnkleJoint_R.translateY" 
-		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:effector4.translateY" 
+		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L|Emily:BaseChar2:IKAnkleJoint_L_orientConstraint1.constraintRotateY" 
+		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L.rotateY" 
 		""
-		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:IKAnkleJoint_R.translateZ" 
-		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_R|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_R|Emily:BaseChar2:IKKneeJoint_R|Emily:BaseChar2:effector4.translateZ" 
+		3 "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L|Emily:BaseChar2:IKAnkleJoint_L_orientConstraint1.constraintRotateZ" 
+		"|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig|Emily:BaseChar2:Root|Emily:BaseChar2:Core|Emily:BaseChar2:Hips|Emily:BaseChar2:IKLeg_L|Emily:BaseChar2:Joints|Emily:BaseChar2:IKHipJoint_L|Emily:BaseChar2:IKKneeJoint_L|Emily:BaseChar2:IKAnkleJoint_L.rotateZ" 
 		""
 		5 4 "EmilyRN" "|Emily:Emily|Emily:BaseChar2:CharacterBase|Emily:BaseChar2:Rig.visibility" 
 		"EmilyRN.placeHolderList[1]" ""
@@ -11495,7 +11495,8 @@ createNode animCurveTU -n "effector2_blendIKWristJointL";
 	setAttr ".ktv[0]"  44 0;
 	setAttr ".kot[0]"  5;
 select -ne :time1;
-	setAttr ".o" 0;
+	setAttr ".o" 95;
+	setAttr ".unw" 95;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
